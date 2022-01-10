@@ -22,4 +22,5 @@ public class CourseController {
     public Course create(@RequestBody Course course){
         return service.create(course);
     }
+    
 }
